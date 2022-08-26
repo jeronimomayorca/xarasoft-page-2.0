@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/logo solo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&family=Quicksand:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>XaraSoft | Colombia</title>
+</head>
+
+<body class="bg-light">
+
+    <!-- primer navbar -->
+    <nav class="navbar bg-light" id="navbar">
+        <div class="container">
+
+            <a class="btn btn-sm btn-primary mx-1 hide-input" href="https://www.facebook.com/xarasoftsnx">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a class="btn btn-sm instagram-bg mx-1 hide-input" href="https://www.instagram.com/xarasoftsnx/">
+                <i class="bi bi-instagram text-light"></i>
+            </a>
+            <a href="https://wa.link/70paod" class="btn btn-sm whatsapp-bg mx-1 hide-input">
+                <i class="bi bi-whatsapp text-light"></i>
+            </a>
+            <a href="https://www.youtube.com/c/SoporteXarasoft" class="btn btn-sm bg-danger mx-1 hide-input">
+                <i class="bi bi-youtube text-light"></i>
+            </a>
+
+            <a class="navbar-brand d-block mx-auto" href="#">
+                <img src="images/logoxarasoftsin-251x128 pequeno.png" alt="logo-corporativo" height="100">
+            </a>
+
+            <button class="navbar-toggler bg-dark hide-button" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="bi bi-list text-light"></i>
+            </button>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 comfortaa-font-300 hide-input" type="search"
+                    placeholder="Buscar algo..." aria-label="Search">
+                <button class="btn btn-sm btn-outline-secondary comfortaa-font-300 hide-input"
+                    type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+    <!-- end primer navbar -->
+
+
+    <!-- segundo navbar -->
+    <nav class="bg-dark py-1 sticky-top hide-navbar">
+        <div class="my-3 close-margin">
+            <ul class="for-ul">
+                <li class=" for-li comfortaa-font-300 text-dark mx-auto"><a class="p-2 for-a" href="#">Inicio</a></li>
+                <li class=" for-li comfortaa-font-300 mx-auto"><a class="p-2 for-a"
+                        href="#soluciones-en-la-nube">Soluciones en la Nube</a>
+                </li>
+                <li class=" for-li comfortaa-font-300 mx-auto"><a class="p-2 for-a" href="#quienes-somos">¿Quienes
+                        Somos?</a></li>
+
+                <li class=" for-li comfortaa-font-300 mx-auto"><a class="p-2 for-a" href="#nuestros-productos">Nuestros
+                        Productos</a>
+                </li>
+                <button class="btn text-light custom-bg comfortaa-font-300 mx-auto" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions">App</button>
+
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                    aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h3 class="offcanvas-title quicksand-font-600" id="offcanvasWithBothOptionsLabel"> <i
+                                class="bi bi-three-dots-vertical"></i> App</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="pt-3">
+                            <h4 class="quicksand-font-600"><i class="bi bi-menu-button-wide-fill"></i></i> AcadSuite :
+                            </h4>
+                            <br>
+                            <div class="list-group-flush">
+                                <a href="/acadsuite/app.html"
+                                    class="list-group-item list-group-item-action comfortaa-font-300"
+                                    aria-current="true">
+                                    <span class="material-symbols-outlined">
+                                        apps
+                                    </span> Conoce nuestra App
+                                </a>
+                                <a href="/acadsuite/web.html"
+                                    class="list-group-item list-group-item-action comfortaa-font-300"> <i></i>
+                                    <span class="material-symbols-outlined p-0 ">
+                                        language
+                                    </span> Conoce nuestra Web</a>
+                                <a href="/archivos de descargas/Instalador AcadSuite.rar"
+                                    download="Instalador Acadsuite.rar"
+                                    class="list-group-item list-group-item-action comfortaa-font-300"><i
+                                        class="bi bi-cloud-download"></i>
+                                    Descarga el Instalador</a>
+                                <a href="/archivos de descargas/Acadsuite.rar" download="Actualizador Acadsuite.rar"
+                                    class="list-group-item list-group-item-action comfortaa-font-300"><i
+                                        class="bi bi-arrow-clockwise"></i>
+                                    Descarga el Actualizador</a>
+                            </div>
+                        </div>
+
+                        <div class="pt-5">
+                            <h4 class="comfortaa-font-700"><i class="bi bi-menu-button-wide-fill"></i></i> Académico :
+                            </h4>
+                            <br>
+                            <div class="list-group-flush">
+                                <a href="/academico/app.html"
+                                    class="list-group-item list-group-item-action comfortaa-font-300"
+                                    aria-current="true">
+                                    <span class="material-symbols-outlined">
+                                        apps
+                                    </span> Conoce Nuestra App
+                                </a>
+
+                                <a href="archivos de descargas/Instalador Academico.rar"
+                                    download="Instalador Académico.rar"
+                                    class="list-group-item list-group-item-action comfortaa-font-300"><i
+                                        class="bi bi-cloud-download"></i>
+                                    Instalador</a>
+                                <a href="archivos de descargas/Actualizar Academico.rar"
+                                    download="Actualizador Académico.rar"
+                                    class="list-group-item list-group-item-action comfortaa-font-300"><i
+                                        class="bi bi-arrow-clockwise"></i>
+                                    Actualizador</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- end segundo navbar -->
+
+
+    <!-- mobile navbar -->
+    <nav class="navbar bg-light show-navbar">
+        <div class="container-fluid">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title comfortaa-font-700" id="offcanvasNavbarLabel"><i
+                            class="bi bi-three-dots-vertical"></i>App
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="pt-3">
+                        <h4 class="quicksand-font-600"><i class="bi bi-menu-button-wide-fill"></i></i> AcadSuite :
+                        </h4>
+                        <br>
+                        <div class="list-group-flush">
+                            <a href="/acadsuite/web.html"
+                                class="list-group-item list-group-item-action comfortaa-font-300"> <i></i>
+                                <span class="material-symbols-outlined p-0 ">
+                                    language
+                                </span> Conoce nuestra Web</a>
+                        </div>
+                    </div>
+
+                    <div class="pt-5">
+                        <h4 class="comfortaa-font-700"><i class="bi bi-menu-button-wide-fill"></i></i> Académico :
+                        </h4>
+                        <br>
+                        <div class="list-group-flush">
+                            <a href="academico/app.html"
+                                class="list-group-item list-group-item-action comfortaa-font-300" aria-current="true">
+                                <span class="material-symbols-outlined">
+                                    apps
+                                </span> Conoce Nuestra App
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end mobile navbar -->
+
+
+    <section class="" id="contenedor-imagen">
+        <img src="images/pantalla.jpg" alt="" class="w-100">
+    </section>
+
+
+    <!-- soluciones en la nube -->
+    <section id="soluciones-en-la-nube" class="py-5 bg-light">
+        <div class="container text-center">
+            <div class="text-center py-5 h1">
+                <i class="bi bi-cloud"></i>
+            </div>
+            <h2 class="text-center mb-5 display-4 comfortaa-font-700">
+                Soluciones en la Nube
+            </h2>
+            <p class="lead mb-5 text-center">Nos esforzamos para que tu información esté siempre a un click de
+                distancia,
+                fácil y <u><b>rápido</b></u>.</p>
+
+            <div class="row">
+                <div class="card-group col-sm-12 col-md-4">
+                    <div class="card">
+                        <div class="card-title pt-4">
+                            <h4 class="quicksand-font-600">Interactividad</h4>
+                        </div>
+                        <hr>
+                        <div class="card-body py-4">
+                            <p class="text-center quicksand-font">Dinamice los procesos entre las dependencias de su
+                                empresa. Las
+                                gestiones
+                                administrativas y operativas encuentran con los datos en la nube un vínculo de
+                                comunicación de datos de texto, sonido y video dado el entorno multimedia de nuestras
+                                soluciones. </p>
+                        </div>
+                        <div class="pb-2">
+                            <h2><i class="bi bi-hand-thumbs-up"></i></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-group col-sm-12 col-md-4">
+                    <div class="card">
+                        <div class="card-title pt-4">
+                            <h4 class="quicksand-font-600">Seguridad</h4>
+                        </div>
+                        <hr>
+                        <div class="card-body p-4">
+                            <p class="text-center quicksand-font pt-4">Las aplicaciones son descargables e instalables;
+                                el
+                                cliente controla
+                                y aprueba el número de instalaciones de una aplicación en su plataforma. </p>
+                        </div>
+                        <div class="pb-2">
+                            <h2><i class="bi bi-shield-lock"></i></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-group col-sm-12 col-md-4">
+                    <div class="card">
+                        <div class="card-title pt-4">
+                            <h4 class="quicksand-font-600">Respaldo</h4>
+                        </div>
+                        <hr>
+                        <div class="card-body p-4">
+                            <p class="text-center quicksand-font pt-4">Siempre tendrá acceso a su información sin
+                                importar las
+                                circunstancias, gracias a las copias seguridad que se guardan automáticamente</p>
+                        </div>
+                        <div class="pb-2">
+                            <h2><i class="bi bi-cloud-check"></i></h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-2">
+                    <!-- card vacía -->
+                </div>
+
+                <div class="card-group col-sm-12 col-md-4 pt-4">
+                    <div class="card">
+                        <div class="card-title pt-4">
+                            <h4 class="quicksand-font-600">Actualizaciones</h4>
+                        </div>
+                        <hr>
+                        <div class="card-body py-4">
+                            <p class="text-center quicksand-font">Nos esmeramos en mantener actualizadas nuestras
+                                plataformas para
+                                brindarle la mayor seguridad frente a las amenazas que hay en la web.</p>
+                        </div>
+                        <div class="pb-2">
+                            <h2><i class="bi bi-upload"></i></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-group col-sm-12 col-md-4 pt-4">
+                    <div class="card">
+                        <div class="card-title pt-4">
+                            <h4 class="quicksand-font-600">Economía</h4>
+                        </div>
+                        <hr>
+                        <div class="card-body py-4">
+                            <p class="text-center quicksand-font pt-4">Manejamos productos que se acomodan a todos los
+                                presupuestos</p>
+                        </div>
+                        <div class="pb-2">
+                            <h2><i class="bi bi-cash-coin"></i></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end soluciones en la nube -->
+
+
+    <!-- quienes somos -->
+    <section id="quienes-somos">
+
+        <main class="bg-dark text-light">
+            <div class="container pt-4">
+
+                <h2 class="display-4 text-center my-5 comfortaa-font-700">¿Quienes Somos?</h2>
+
+
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-4">
+                        <h5 class="comfortaa-font-700">XaraSoft</h5>
+                        <hr>
+                        <p class="comfortaa-font-300 lead">Xarasoft es una empresa en crecimiento, registrada en la
+                            Cámara de Comercio de
+                            Manizales, enfocada a ampliar la cobertura de cada uno de nuestros servicios buscando
+                            siempre la satisfacción de necesidades de aplicaciones Intranet/ Internet
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <section id="inicio">
+                            <div id="slider-pag" class="carousel slide" data-bs-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li class="active" data-bs-target="#slider-pag" data-bs-slide-to="0">
+                                    </li>
+
+                                    <li data-bs-target="#slider-pag" data-bs-slide-to="1">
+                                    </li>
+
+                                    <li data-bs-target="#slider-pag" data-bs-slide-to="2">
+                                    </li>
+                                </ol>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/liceo claudina 1.jpeg" alt="" class="d-block w-100">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/IMG_5433.JPG" alt="" class="d-block w-100">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/IMG_5902.JPG" alt="" class="d-block w-100">
+                                    </div>
+                                </div>
+
+                                <a href="#slider-pag" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+
+                                <a href="#slider-pag" class="carousel-control-next" role="button" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                                    <span class="visually-hidden"></span>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <h1 class="pt-5 display-6 py-5 comfortaa-font-300">“La mejor publicidad es la que hacen los
+                        clientes
+                        satisfechos”.
+                    </h1>
+                    <h4 class="comfortaa-font-300 pb-3"> Philip Kotler</h4>
+                </div>
+
+            </div>
+        </main>
+
+    </section>
+    <!-- end quienes somos -->
+
+
+    <!-- nuestros productos -->
+    <section id="nuestros-productos" class="bg-light py-5">
+        <div class="container py-5">
+            <h2 class="comfortaa-font-700 display-6"><i class="bi bi-bookmark-check mx-2"></i>Nuestros Productos
+            </h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-8 pt-4">
+                    <img src="images/dashboard tortas.png" alt="screenshot-academico" class="img-fluid">
+                </div>
+
+                <div class="col-sm-12 col-md-4 pt-5">
+                    <h2 class="comfortaa-font-700">Acadsuite</h2>
+                    <p class="comfortaa-font-300 lead pt-3">Pensado para docentes que trabajan en zonas retiradas de la
+                        cede central
+                    </p>
+                    <a href="acadsuite/web.html" class="btn custom-bg text-light comfortaa-font-300 p-3">Quiero Conocer
+                        Más</a>
+                </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-sm-12 col-md-4 pt-5">
+                    <h2 class="comfortaa-font-700">Académico</h2>
+                    <p class="comfortaa-font-300 lead pt-3">Hecho para el manejo óptimo de las calificaciones según el
+                        nuevo decreto del Ministerio de Educación</p>
+                    <a href="academico/app.html"
+                        class="btn custom-bg text-light comfortaa-font-300 p-3 hide-input">Quiero Conocer
+                        Más</a>
+                </div>
+
+                <div class="col-sm-12 col-md-8">
+                    <img src="images/captura-1301x674-800x414.jpg" alt="screenshot-academico" class="img-fluid">
+                </div>
+
+                <div class="col-sm-12 col-md-4 pt-5">
+                    <a href="academico/app.html"
+                        class="btn custom-bg text-light comfortaa-font-300 p-3 hide-button">Quiero Conocer
+                        Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end nuestros productos -->
+
+    <!-- nuestros clientes -->
+    <section id="nuestros-clientes">
+        <div class="container py-5">
+            <h2 class="comfortaa-font-700 display-6"><i class="bi bi-cloud-check mx-2"></i>Algunos de nuestros clientes
+            </h2>
+        </div>
+
+        <div class="container">
+            <p class="comfortaa-font-300">
+                A lo largo de nuestra trayectoria hemos logrado hacer vínculos con aliados estratégicos que nos han
+                permitido posicionar a <b class="comfortaa-font-700">XaraSoft</b> en un lugar privilegiado frente a la
+                competencia.
+            </p>
+        </div>
+        
+        <div class="container pt-5">
+            <h2 class="comfortaa-font-700 py-5">Empresas</h2>
+            <div class="row">
+                <div class="col-md-1">
+                    <!-- blank space -->
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logos/Monica Sierra Sportwear.jpg" height="100" class="d-block mx-auto">
+                    <p class="comfortaa-font-300 text-center">Mónica Sierra Sportwear</p>
+                </div>
+                <div class="col-md-1">
+                    <!-- blank space -->
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logos/Ortopedica San Carlos Pereira.jpg" height="100" class="d-block mx-auto">
+                    <p class="comfortaa-font-300 text-center">Ortopédica San Carlos Pereira</p>
+                </div>
+                <div class="col-md-1">
+                    <!-- blank space -->
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logos/Suautomovil.jpg" height="100" class="d-block mx-auto">
+                    <p class="comfortaa-font-300 text-center">Suautomóvil</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-5">
+            <div class="row">
+                <h2 class="comfortaa-font-700 my-5">Colegios</h2>
+                <div class="col-md-3">
+                    <img src="images/logos/comunidad terapeutica semillas de amor.jpg" height="80" class="d-block mx-auto">
+                    <p class="comfortaa-font-300 text-center">Comunidad Terapéutica Semillas de Amor</p>
+                </div>
+                <div class="col-md-1">
+                    <!-- blank space -->
+                </div>
+                 <div class="col-md-3">
+                    <img src="images/logos/ie antonio maria hincapie.jpg" height="80" class="d-block mx-auto">
+                    <p class="comfortaa-font-300 text-center">IE Antonio María Hincapié</p>
+                </div>
+                <div class="col-md-1">
+                    <!-- blank space -->
+                </div>
+                 <div class="col-md-3">
+                    <img src="images/logos/ie antonio narino.jpg" height="80" class="d-block mx-auto">
+                    <p class="comfortaa-font-300 text-center">IE Antonio Nariño</p>
+                </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE Cartagena.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Cartagena</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/ie claudina munera.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Claudina Múnera</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Crisanto Luque.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Crisanto Luque</p>
+               </div>
+            </div>
+
+             <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE El Llano.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE El Llano</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE El Placer.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE El Placer</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE El Roble.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE EL Roble</p>
+               </div>
+            </div>
+
+             <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/ie elias mejia.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Elías Mejía</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/ie ens claudina munera.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE ENS Claudina Múnera</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE ENS Rebeca Sierra Cardona.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE ENS Rebeca Sierra Cardona</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE ENS San Jose.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE ENS San José</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Fortunato Gaviria.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Fortunato Gaviria</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Francisco Jose de Caldas.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Francisco José de Caldas</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE Jorge Isaacs.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Jorge Isaacs</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Juan XXIII.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Juan XXIII</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Justiniano Echavarria.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Justiniano Echavarría</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE La Inmaculada.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE La Inmaculada</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE La Milagrosa.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE La Milagrosa</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE La Presentacion.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE La Presentación</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE La Quiebra.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE La Quiebra</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Las Coles.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Las Coles</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Marco Fidel Suarez.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Marco Fidel Suárez</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE Marino Gomez Estrada.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Marino Gómez Estrada</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Mariscal Robledo.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Mariscal Robledo</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Monsenor Alfonso de los Rios.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE  Monseñor Alfonso de los Ríos</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE Nuestra Senora del Rosario.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Nuestra Señora del Rosario</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Patio Bonito.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Patio Bonito</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Pensilvania.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Pensilvania</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE Pio XII.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Pio XII</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Roberto Pelaez.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Roberto Peláez</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE San Felix.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE San Félix</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-3">
+                   <img src="images/logos/IE San Luis.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE San Luis</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Santagueda.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Santagueda</p>
+               </div>
+               <div class="col-md-1">
+                   <!-- blank space -->
+               </div>
+                <div class="col-md-3">
+                   <img src="images/logos/IE Sara Ospina.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Sara Ospina</p>
+               </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md">
+                   <img src="images/logos/IE Vivoral.jpg" height="80" class="d-block mx-auto">
+                   <p class="comfortaa-font-300 text-center">IE Vivoral</p>
+               </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end nuestros clientes -->
+
+
+    <!-- botón de inicio -->
+    <div class="container py-3 hide-input">
+        <div class="row">
+            <div class="col-sm-10">
+                <!-- blank space -->
+            </div>
+
+            <div class="col-sm-2">
+                <a class="btn custom-bg text-light comfortaa-font-300" href="#navbar">
+                    Volver al inicio
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end botón de inicio -->
+
+
+    <!-- footer -->
+    <section class="bg-dark p-2">
+        <footer>
+            <h5 class="text-light text-center lead">Todos los derechos reservados. 2022</h5>
+        </footer>
+    </section>
+    <!-- end footer -->
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+</html>
