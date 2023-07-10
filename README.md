@@ -1,7 +1,7 @@
 Take a look over my work in: 
 
 
-<a href = "xarasoft.com.co">
+<a href = "http://xarasoft.com.co/">
 xarasoft.com.co
 </a>
 
